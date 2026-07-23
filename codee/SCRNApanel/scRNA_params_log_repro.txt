@@ -1,0 +1,141 @@
+=== CAP scRNA 复现参数日志 ===
+生成时间: 2026-07-23 22:30:52 
+
+[样本] 5 CAP: A,B,C(GSE181688) + D,E(GSE197680)
+[细胞数] 质控前 45483 → 质控后 44397 
+[每样本质控后]
+
+    A     B     C     D     E 
+ 8073 10769  7017  9287  9251 
+[聚类] 数目 21 @ resolution 0.5 
+
+=== 参数 ===
+  qc_min_cells         = 3
+  qc_min_features      = 200
+  filt_nFeature_min    = 200
+  filt_nFeature_max    = 6000
+  filt_nCount_max      = 50000
+  filt_percent_mt      = 15
+  mt_pattern           = ^MT-
+  norm_method          = LogNormalize
+  scale_factor         = 10000
+  n_hvg                = 2000
+  vars_to_regress      = none
+  pca_npcs             = 30
+  cluster_dims         = 30
+  cluster_resolution   = 0.5
+  seed                 = 42
+
+=== sessionInfo ===
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26100)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8 
+[2] LC_CTYPE=Chinese (Simplified)_China.utf8   
+[3] LC_MONETARY=Chinese (Simplified)_China.utf8
+[4] LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] future_1.68.0      ggplot2_4.0.2      data.table_1.18.0 
+[4] Seurat_5.4.0       SeuratObject_5.3.0 sp_2.2-0          
+
+loaded via a namespace (and not attached):
+  [1] deldir_2.0-4           pbapply_1.7-4          gridExtra_2.3         
+  [4] rlang_1.1.7            magrittr_2.0.4         RcppAnnoy_0.0.23      
+  [7] otel_0.2.0             spatstat.geom_3.7-0    matrixStats_1.5.0     
+ [10] ggridges_0.5.7         compiler_4.5.2         png_0.1-8             
+ [13] systemfonts_1.3.1      vctrs_0.6.5            reshape2_1.4.5        
+ [16] stringr_1.6.0          pkgconfig_2.0.3        fastmap_1.2.0         
+ [19] labeling_0.4.3         promises_1.5.0         ragg_1.5.0            
+ [22] purrr_1.2.1            jsonlite_2.0.0         goftest_1.2-3         
+ [25] later_1.4.4            uuid_1.2-1             spatstat.utils_3.2-1  
+ [28] irlba_2.3.5.1          parallel_4.5.2         cluster_2.1.8.1       
+ [31] R6_2.6.1               ica_1.0-3              spatstat.data_3.1-9   
+ [34] stringi_1.8.7          RColorBrewer_1.1-3     reticulate_1.45.0     
+ [37] spatstat.univar_3.1-6  parallelly_1.46.1      lmtest_0.9-40         
+ [40] scattermore_1.2        Rcpp_1.1.1             tensor_1.5.1          
+ [43] future.apply_1.20.1    zoo_1.8-15             R.utils_2.13.0        
+ [46] sctransform_0.4.3      httpuv_1.6.16          Matrix_1.7-4          
+ [49] splines_4.5.2          igraph_2.2.1           tidyselect_1.2.1      
+ [52] abind_1.4-8            rstudioapi_0.17.1      spatstat.random_3.4-4 
+ [55] codetools_0.2-20       miniUI_0.1.2           spatstat.explore_3.7-0
+ [58] listenv_0.10.0         lattice_0.22-7         tibble_3.3.0          
+ [61] plyr_1.8.9             withr_3.0.2            shiny_1.12.1          
+ [64] S7_0.2.1               askpass_1.2.1          ROCR_1.0-11           
+ [67] Rtsne_0.17             fastDummies_1.7.5      survival_3.8-3        
+ [70] polyclip_1.10-7        zip_2.3.3              xml2_1.5.1            
+ [73] fitdistrplus_1.2-6     pillar_1.11.1          KernSmooth_2.23-26    
+ [76] plotly_4.11.0          generics_0.1.4         RcppHNSW_0.6.0        
+ [79] scales_1.4.0           globals_0.18.0         xtable_1.8-4          
+ [82] glue_1.8.0             lazyeval_0.2.2         tools_4.5.2           
+ [85] RSpectra_0.16-2        RANN_2.6.2             dotCall64_1.2         
+ [88] cowplot_1.2.0          grid_4.5.2             tidyr_1.3.2           
+ [91] nlme_3.1-168           patchwork_1.3.2        cli_3.6.5             
+ [94] spatstat.sparse_3.1-0  TwoSampleMR_0.6.29     textshaping_1.0.4     
+ [97] officer_0.7.2          spam_2.11-3            viridisLite_0.4.2     
+[100] dplyr_1.1.4            uwot_0.2.4             gtable_0.3.6          
+[103] R.methodsS3_1.8.2      digest_0.6.39          progressr_0.18.0      
+[106] ggrepel_0.9.6          htmlwidgets_1.6.4      farver_2.1.2          
+[109] R.oo_1.27.1            htmltools_0.5.9        lifecycle_1.0.4       
+[112] httr_1.4.7             mime_0.13              openssl_2.3.4         
+[115] MASS_7.3-65           
+
+
+=== Harmony 整合（追加）===
+生成时间: 2026-07-23 22:35:57 
+  integration=Harmony  group.by.vars=sample  dims.use=1:30
+  downstream=harmony (umap_h, dims 1:30, res 0.5, seed 42)
+  clusters_after = 17 
+  harmony_version = 1.2.4 
+
+
+=== Harmony 整合（追加）===
+生成时间: 2026-07-23 22:39:13 
+  integration=Harmony  group.by.vars=sample  dims.use=1:30
+  downstream=harmony (umap_h, dims 1:30, res 0.5, seed 42)
+  clusters_after = 17 
+  harmony_version = 1.2.4 
+
+
+=== 细胞类型注释（追加）===
+生成时间: 2026-07-23 22:52:55 
+Pericyte(g4): RGS5+/PDGFRB+/NOTCH3+/ACTA2+/TAGLN+，MYH11/CNN1 低 → 壁周细胞非成熟平滑肌
+簇→类型映射:
+  g0 = Plasma cell
+  g3 = Plasma cell
+  g9 = Plasma cell
+  g10 = Plasma cell
+  g15 = Plasma cell
+  g1 = Fibroblast
+  g13 = Proliferating fibroblast
+  g2 = Endothelial
+  g4 = Pericyte
+  g5 = T cell
+  g7 = T cell
+  g6 = B cell
+  g16 = B cell
+  g8 = Mono/Macrophage
+  g11 = Epithelial
+  g12 = Mast cell
+  g14 = Dendritic cell
+PTK2 周细胞特异；ROCK1 周细胞最高但广谱；DLK1/SIK2 测不到
+
+
+=== Step5 出图收尾 ===
+生成时间: 2026-07-23 22:58:22 
+产出: FIG_scRNA_{umap_celltypes, featureplot_PTK2_ROCK1, violin_PTK2_ROCK1, dotplot_pericyte}_repro
+      TABLE_scRNA_target_expression_bycelltype_repro.csv
+结论口径: PTK2 特异富集周细胞；ROCK1 周细胞最高但广谱；两者共汇周细胞（FAK-ROCK 节点）
+          DLK1/SIK2 表达低于检测，定位不适用（由 MR 支撑）
