@@ -1,0 +1,13 @@
+phenotype,GeneSymbol,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval
+necrosis,ROCK1,0.00857,2.73e-05,TRUE,4.44e-17
+necrosis,PTK2,0.02611,5.75e-05,TRUE,1.37e-155
+necrosis,SIK2,0.02945,3.32e-05,TRUE,1.53e-181
+necrosis,DLK1,0.01033,3.2e-05,TRUE,9.53e-55
+K04,ROCK1,0.00857,2.14e-05,TRUE,2.6e-17
+K04,PTK2,0.02611,4.15e-05,TRUE,1.91e-158
+K04,SIK2,0.02945,2.04e-05,TRUE,6.52e-185
+K04,DLK1,0.01033,2.64e-05,TRUE,1.68e-55
+pulpitis,ROCK1,0.00857,8.94e-06,TRUE,7.75e-18
+pulpitis,PTK2,0.02611,5.66e-05,TRUE,2.36e-154
+pulpitis,SIK2,0.02945,3.9e-07,TRUE,4.91e-191
+pulpitis,DLK1,0.01033,3.6e-05,TRUE,5.83e-54

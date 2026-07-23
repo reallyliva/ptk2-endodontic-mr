@@ -1,0 +1,5 @@
+GeneSymbol,nSNP,Q,Q_df,Q_pval,note
+PTK2,2,0.069,1,0.793,""
+ROCK1,1,,,,single variant → NA
+DLK1,2,0.009,1,0.924,""
+SIK2,2,0.311,1,0.577,""
