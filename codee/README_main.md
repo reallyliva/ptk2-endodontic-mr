@@ -6,7 +6,6 @@ localizing it to **vascular pericytes**, with **ROCK1** as a supportive same-pat
 target.
 
 - **Manuscript:** *Druggable-genome Mendelian randomization implicates PTK2 (focal adhesion kinase) in pulpal and apical disease and localizes the target to vascular pericytes*
-- **Archived release:** *https://doi.org/10.5281/zenodo.21535754*
 - **License:** MIT (see LICENSE)
 
 ## What this study does
