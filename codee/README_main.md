@@ -5,7 +5,7 @@ FAK)** as a causal, druggable target for pulpal and apical (endodontic) disease,
 localizing it to **vascular pericytes**, with **ROCK1** as a supportive same-pathway
 target.
 
-- **Manuscript:** *Druggable-genome Mendelian randomization implicates PTK2 (focal adhesion kinase) in pulpal and apical disease and localizes the target to vascular pericytes*
+- **Manuscript:** *Focal adhesion kinase (PTK2) is a druggable target in pulpal and apical disease and localizes to periapical pericytes: a drug-target Mendelian randomization and single-cell study*
 - **License:** MIT (see LICENSE)
 
 ## What this study does
